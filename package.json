@@ -1,0 +1,17 @@
+{
+  "name": "cypress-introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "headless": "npx cypress run --browser chrome --spec 'cypress/e2e/swag-labs.cy.js'",
+    "headlessVideo": "npx cypress run --record --browser chrome --spec 'cypress/e2e/swag-labs.cy.js'",
+    "headed": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/swag-labs.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.15.0"
+  }
+}
